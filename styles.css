@@ -1,0 +1,17 @@
+.player-button {
+    border-style: hidden;
+    cursor: pointer;
+    color: white;
+    background-color: #11ffee00;
+}
+.player-control-area {
+    background-color: black;
+}
+.player-container {
+    width: 100%;
+    height: 100%;
+}
+.player {
+    width: 800px;
+    height: 600px;
+}
