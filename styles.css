@@ -3,6 +3,8 @@
     cursor: pointer;
     color: white;
     background-color: #11ffee00;
+    font-size: 125%;
+    line-height: 125%;
 }
 .player-control-area {
     display: flex;
