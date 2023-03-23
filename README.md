@@ -3,6 +3,8 @@
 Проект предствляет собой видеоплеер. 
 
 Опубликовано на [GitHubPage](https://xakars.github.io/video-player/player.html)
+![image](https://user-images.githubusercontent.com/73193926/227166689-dda2486d-6943-4f13-b198-72d85c501f05.png)
+
 
 ## Локальный Запуск
 Команда для установки зависимостей:
