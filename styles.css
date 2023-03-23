@@ -5,14 +5,16 @@
     background-color: #11ffee00;
 }
 .player-control-area {
+    display: flex;
     background-color: black;
 }
 .player-container {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    flex-grow: 2;
 }
 .player {
+    display: flex;
+    flex-direction: column;
     width: 800px;
     height: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
 }
