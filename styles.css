@@ -5,6 +5,9 @@
     background-color: #11ffee00;
     font-size: 125%;
     line-height: 125%;
+    height: 25px;
+    width: 25px;
+    margin: 8px;
 }
 .player-control-area {
     display: flex;
