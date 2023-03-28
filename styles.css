@@ -6,11 +6,11 @@
     font-size: 20px;
     height: 40px;
     width: 40px;
-    align-items: center;
 }
 .player-control-area {
     display: flex;
     background-color: black;
+    align-items: center;
 }
 .player-container {
     flex-grow: 2;
