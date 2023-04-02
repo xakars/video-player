@@ -25,11 +25,11 @@
 .player .player-control-area .left-buttons {
 
 }
-
 .player .player-control-area .viewing-panel{
     display: flex;
     flex-grow: 1;
     align-items: center;
+    padding: 9px;
 }
 .player .player-control-area .viewing-panel .viewing-time {
     color: white;
@@ -64,8 +64,6 @@
     color: white;
     font-family: 'Roboto', sans-serif;
 }
-
-
 .player .player-control-area .right-buttons {
 
 }
