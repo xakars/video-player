@@ -29,6 +29,7 @@
 .player .player-control-area .viewing-panel{
     display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 .player .player-control-area .viewing-panel .viewing-time {
     color: white;
@@ -48,16 +49,22 @@
 .player .player-control-area .viewing-panel .viewing-progressbar .slider-point {
     height: 8px;
     width: 8px;
-    background-color: red;
+    opacity: 1;
     border-radius: 50%;
     display: inline-block;
-    box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 2px white;
     margin: -1px;
+    transition-timing-function: ease-in, ease-out;
+    transition-duration: 300ms;
+}
+.player .player-control-area .viewing-panel:hover .viewing-progressbar .animated-btn {
+    background-color: red;
+    box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 2px white;
 }
 .player .player-control-area .viewing-panel .video-duration {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 
 .player .player-control-area .right-buttons {
 
