@@ -1,3 +1,18 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}
+.player-container {
+    flex-grow: 2;
+}
+.player-control-area {
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
 .player-button {
     border-style: hidden;
     cursor: pointer;
@@ -7,23 +22,27 @@
     height: 43px;
     width: 37px;
 }
-.player-control-area {
-    display: flex;
-    background-color: black;
-    align-items: center;
+.player .player-control-area .left-buttons {
+
 }
-.player-container {
+
+.player .player-control-area .viewing-panel{
+    display: flex;
+    flex-grow: 1;
+}
+.player .player-control-area .viewing-panel .viewing-time {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.player .player-control-area .viewing-panel .viewing-progressbar {
     flex-grow: 2;
 }
-.player {
-    display: flex;
-    flex-direction: column;
-    width: 800px;
-    height: 600px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+.player .player-control-area .viewing-panel .video-duration {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
-.empty-space {
-    display: flex;
-    flex-grow: 2;
-    align-items: center;
+
+.player .player-control-area .right-buttons {
+
 }
+
