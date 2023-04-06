@@ -42,6 +42,7 @@
     background-color: black;
     height: 5px;
     margin: 6px;
+    cursor: pointer;
 }
 .player .player-control-area .viewing-panel .viewing-progressbar .progress-slider {
     background-color: red;
